@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700;1,900&family=DM+Sans:wght@400;500;600&display=swap');
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'DM Sans', Arial, sans-serif;
+    background: #ede8f5;
+    width: 1080px;
+    height: 1080px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 56px 64px 48px;
+    color: #1e1a3a;
+  }
+
+  /* Logo row */
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 36px;
+  }
+  .top img { height: 34px; width: auto; }
+  .top .tag {
+    font-size: 11px; font-weight: 600;
+    letter-spacing: 0.18em; text-transform: uppercase;
+    color: #7b5ea7;
+    background: white;
+    padding: 7px 16px; border-radius: 100px;
+    border: 1px solid rgba(123,94,167,0.25);
+  }
+
+  /* Headline */
+  .headline {
+    margin-bottom: 32px;
+  }
+  .eyebrow {
+    font-size: 11px; font-weight: 600;
+    letter-spacing: 0.2em; text-transform: uppercase;
+    color: #7b5ea7; margin-bottom: 10px;
+  }
+  h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 62px; font-weight: 900; font-style: italic;
+    color: #1e1a3a; line-height: 1.05;
+    margin-bottom: 12px;
+  }
+  .sub {
+    font-size: 17px; color: #4a4270;
+    font-style: italic; line-height: 1.5;
+  }
+
+  /* Tiers */
+  .tiers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 28px;
+    flex: 1;
+  }
+  .tier {
+    background: white;
+    border-radius: 14px;
+    padding: 24px 22px;
+    border: 1px solid rgba(123,94,167,0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .tier-label {
+    font-size: 9.5px; font-weight: 600;
+    letter-spacing: 0.16em; text-transform: uppercase;
+    color: #7b5ea7;
+  }
+  .tier h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 21px; font-weight: 700; font-style: italic;
+    color: #1e1a3a;
+  }
+  .tier p { font-size: 13.5px; color: #4a4270; line-height: 1.55; }
+
+  /* CTA */
+  .cta {
+    background: #1e1a3a;
+    border-radius: 14px;
+    padding: 22px 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .cta-left { flex: 1; }
+  .cta-left .label {
+    font-size: 10px; font-weight: 600;
+    letter-spacing: 0.18em; text-transform: uppercase;
+    color: #e8a0c8; margin-bottom: 5px;
+  }
+  .cta-left p {
+    font-size: 13px; color: rgba(255,255,255,0.6);
+    line-height: 1.5;
+  }
+  .cta-right {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: right;
+    flex-shrink: 0;
+  }
+  .cta-line {
+    font-size: 13.5px; font-weight: 500;
+    color: white;
+  }
+  .cta-line span {
+    color: #e8a0c8;
+    font-size: 11px; font-weight: 400;
+    display: block;
+    margin-bottom: 1px;
+    letter-spacing: 0.05em; text-transform: uppercase;
+  }
+</style>
+</head>
+<body>
+
+<div class="top">
+  <img src="https://raw.githubusercontent.com/yes-mistress/coaching/main/chyrpe-logo.webp" alt="Chyrpe">
+  <span class="tag">Sponsorship Programme</span>
+</div>
+
+<div class="headline">
+  <div class="eyebrow">Chyrpe × Kink Community</div>
+  <h1>The Munch<br>Insurance Scheme</h1>
+  <p class="sub">Securing your minimum spend so there is no stress at your next kink event</p>
+</div>
+
+<div class="tiers">
+  <div class="tier">
+    <div class="tier-label">Tier 1: All Munches</div>
+    <h3>Minimum Spend Guarantee</h3>
+    <p>Every month you don't reach your minimum spend ceiling, Chyrpe pays the difference. No stress for organisers. No pressure on attendees.</p>
+  </div>
+  <div class="tier">
+    <div class="tier-label">Tier 2: Femdom Events</div>
+    <h3>Drinks for Dommes</h3>
+    <p>Upfront cash sponsorship so Dominant Women drink on Chyrpe. Because they deserve to be celebrated.</p>
+  </div>
+</div>
+
+<div class="cta">
+  <div class="cta-left">
+    <div class="label">Get in touch</div>
+    <p>Female-led dating.<br>Where women do not need to hide.</p>
+  </div>
+  <div class="cta-right">
+    <div class="cta-line">
+      <span>Email</span>
+      partnerships@chyrpe.com
+    </div>
+    <div class="cta-line">
+      <span>FetLife</span>
+      Miss-Predicament
+    </div>
+    <div class="cta-line">
+      <span>Web</span>
+      chyrpe.com
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
